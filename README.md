@@ -37,7 +37,7 @@ Généralement, cela donne :
 
 Pour modifier la page, le Javascript va cibler un ou plusieurs éléments grâce à leur nom, à leur identifiant, ou à leurs classes.
 
-En Vanilla Javascript, cela donne : 
+En Javascript pure, cela donne : 
 ```js
 	document.getElementById('monparagraphe').textContent = 'Un nouveau contenu';
 ```
