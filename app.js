@@ -1,45 +1,47 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
-    photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
-    github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    firstName: "Yingke",
+    lastName: "Zhao",
+    description: "Journalism student at Sciences Po Paris",
+    photo: "./705423090.jpg",
+    twitter: "YingkeZ",
+    instagram: "slf_zhaoyingke",
+    mail: "yingke.zhao@sciencespo.fr",
     experiences: [{
-      dateBegin: "2014",
-      dateEnd: "Today",
-      name: "Agence France Presse",
-      title: "Datajournalist",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      dateBegin: "May",
+      dateEnd: "June 2018",
+      name: "Cafébabel",
+      title: "Intern journalist",
+      description: "Served as Editorial Intern at the online magazine Cafébabel. Produced several video projects and a long format story on European news. Helped edit and manage contents from the contributor community."
     }, {
-      dateBegin: "Été 2013",
-      dateEnd: false,
-      name: "Le Monde.fr",
-      title: "Data-journalist",
-      description: false
+      dateBegin: "July",
+      dateEnd: "August 2016",
+      name: "China Radio International",
+      title: "Intern journalist-translator",
+      description: "Covered Chinese and international political news. Wrote, translated and published several pieces in French."
     }, {
-      dateBegin: "2012",
-      dateEnd: "2013",
-      name: "Le Dauphiné Libéré",
-      title: "Stagiaire et correspondant de presse",
-      description: false
+      dateBegin: "January",
+      dateEnd: "June 2016",
+      name: "China Business News Weekly",
+      title: "Intern journalist",
+      description: "Served as intern journalist in the Business Breaking News team. Complied and published domestic and international news from international press. Interviewed a French business executive and contributed to CBN’s Dialogue column."
     }],
     formations: [{
-      dateBegin: "2012",
-      dateEnd: "2014",
-      name: "Master Journalisme",
-      university: "Sciences Po Grenoble"
+      dateBegin: "September 2017",
+      dateEnd: "Today",
+      name: "Master in Journalism",
+      university: "Sciences Po Paris",
+      description: "M.S. program in journalism, expected date of graduation: June 1, 2019. Awarded Bourse d’excellence Eiffel scholarship for the two years of study."
     }, {
-      dateBegin: "2009",
-      dateEnd: "2012",
-      name: "Bachelor Sciences Politiques",
-      university: "Sciences Po Grenoble"
+      dateBegin: "September 2012",
+      dateEnd: "June 2017",
+      name: "Bachelor of Arts",
+      university: "Fudan University",
+      description: "B.A. in French Language and Literature. General GPA: 3.45/4; major GPA: 3.67/4; ranked 4/17. Awarded Fudan Excellency Scholarship each year of study and Pierre  Fabre-Fudan Scholarship in academic year 2016. In 2012 — 2013 studied International Relations and Public Affairs "
     }],
-    languages: ["Anglais"],
-    skills: ["Node", "VueJS", "D3js", "SCSS", "HTML"]
+    languages: ["Chinese", "English", "French", "Italian", "German"],
+    skills: ["TBD"]
   },
   computed: {
     fullName() {
